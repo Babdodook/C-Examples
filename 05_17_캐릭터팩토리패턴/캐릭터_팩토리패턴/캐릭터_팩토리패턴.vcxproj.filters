@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Object\Character">
+      <UniqueIdentifier>{449a62ff-0760-4bd1-b28b-04c861e9ba3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Character\Elf">
+      <UniqueIdentifier>{962328f5-c382-4055-a95b-620b4983f64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Character\Orc">
+      <UniqueIdentifier>{c9a50838-6b48-484c-b5c7-c4c608c88d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Character\Human">
+      <UniqueIdentifier>{694cb9c3-0c89-423a-917c-016dfd1d7a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{f28e36de-ebea-462a-82b8-c581fb1dedfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\CharacterFactory">
+      <UniqueIdentifier>{1a7855d4-f7d3-4542-971a-78ab1f130512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\JobItemFactory">
+      <UniqueIdentifier>{066953cd-3704-476a-a15d-699a876f5a82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CharacterFactory.cpp">
+      <Filter>Factory\CharacterFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="ElfFactory.cpp">
+      <Filter>Factory\CharacterFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Global</Filter>
+    </ClCompile>
+    <ClCompile Include="KnightFactory.cpp">
+      <Filter>Factory\JobItemFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicianFactory.cpp">
+      <Filter>Factory\JobItemFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="PriestFactory.cpp">
+      <Filter>Factory\JobItemFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Elf.cpp">
+      <Filter>Object\Character\Elf</Filter>
+    </ClCompile>
+    <ClCompile Include="OrcFactory.cpp">
+      <Filter>Factory\CharacterFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanFactory.cpp">
+      <Filter>Factory\CharacterFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Object\Character\Human</Filter>
+    </ClCompile>
+    <ClCompile Include="Orc.cpp">
+      <Filter>Object\Character\Orc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h">
+      <Filter>Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Elf.h">
+      <Filter>Object\Character\Elf</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Object\Character\Human</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc.h">
+      <Filter>Object\Character\Orc</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterFactory.h">
+      <Filter>Factory\CharacterFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ElfFactory.h">
+      <Filter>Factory\CharacterFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="JobItemFactory.h">
+      <Filter>Factory\JobItemFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="KnightFactory.h">
+      <Filter>Factory\JobItemFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicianFactory.h">
+      <Filter>Factory\JobItemFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="PriestFactory.h">
+      <Filter>Factory\JobItemFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="OrcFactory.h">
+      <Filter>Factory\CharacterFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanFactory.h">
+      <Filter>Factory\CharacterFactory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

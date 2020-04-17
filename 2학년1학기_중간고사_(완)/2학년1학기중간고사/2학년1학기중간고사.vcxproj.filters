@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\UserInfo">
+      <UniqueIdentifier>{e4da4ab3-4337-481c-afb1-e3c7b9cbd5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UserInfo\Character">
+      <UniqueIdentifier>{45450c01-0ead-4bb8-9dac-7ca0acc888d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UserInfo\Character\Orc">
+      <UniqueIdentifier>{63f28fd6-b024-4d02-8002-f2f3acf0ce96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UserInfo\Character\Elf">
+      <UniqueIdentifier>{bd3d4157-c510-4dcb-bdb3-bc1009b6ceb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UserInfo\Character\Human">
+      <UniqueIdentifier>{7f9533f8-ed59-4eae-8a54-3cdc96ce9e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Managers">
+      <UniqueIdentifier>{31ded5cb-4d9f-4b01-8e61-fe2a085dbfc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Managers\CoreManager">
+      <UniqueIdentifier>{76b90baf-5e64-4c5e-9724-67d3a15e367f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Managers\UserManager">
+      <UniqueIdentifier>{4e1a07a6-8f60-4ffc-8bbc-1345d9d5987c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Managers\LoginManager">
+      <UniqueIdentifier>{1acf72bf-94b6-45bd-8c39-112429396f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Managers\UserManager\CharacterManager">
+      <UniqueIdentifier>{a7251494-3fa9-4f08-a8ce-cff550a4efed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Managers\UserManager\ItemManager">
+      <UniqueIdentifier>{ab685447-c907-480b-8d86-800ca7e53b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UserInfo\Item">
+      <UniqueIdentifier>{67e7c335-45fb-4bf9-9581-f04750e6e4c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UserInfo\Item\Sword">
+      <UniqueIdentifier>{4d4c4c80-a1c1-4f91-979d-352222b7261b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UserInfo\Item\Arrow">
+      <UniqueIdentifier>{32be6bd1-9426-4ce9-8f61-f6b52dbefdb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UserInfo\Item\Wand">
+      <UniqueIdentifier>{752f113e-f871-4f77-a25a-5f4114e710a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Managers\UserManager\ItemManager\SwordManager">
+      <UniqueIdentifier>{1d686826-2551-4090-b7c7-bbf046c497ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Managers\UserManager\ItemManager\BowManager">
+      <UniqueIdentifier>{4b046407-9ccc-483b-8cfd-ad28cbd5ffa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Managers\UserManager\ItemManager\WandManager">
+      <UniqueIdentifier>{7203ba8b-3aad-43de-a8bc-2104e550f43b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>소스 파일\UserInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreManager.cpp">
+      <Filter>소스 파일\Managers\CoreManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>소스 파일\Managers\UserManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginManager.cpp">
+      <Filter>소스 파일\Managers\LoginManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>소스 파일\Managers\UserManager\CharacterManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>소스 파일\Managers\UserManager\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>소스 파일\UserInfo\Item\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="Wand.cpp">
+      <Filter>소스 파일\UserInfo\Item\Wand</Filter>
+    </ClCompile>
+    <ClCompile Include="Orc.cpp">
+      <Filter>소스 파일\UserInfo\Character\Orc</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>소스 파일\UserInfo\Character\Human</Filter>
+    </ClCompile>
+    <ClCompile Include="Elf.cpp">
+      <Filter>소스 파일\UserInfo\Character\Elf</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>소스 파일\UserInfo\Item\Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordManager.cpp">
+      <Filter>소스 파일\Managers\UserManager\ItemManager\SwordManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WandManager.cpp">
+      <Filter>소스 파일\Managers\UserManager\ItemManager\WandManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BowManager.cpp">
+      <Filter>소스 파일\Managers\UserManager\ItemManager\BowManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\UserInfo\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>소스 파일\UserInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Elf.h">
+      <Filter>소스 파일\UserInfo\Character\Elf</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>소스 파일\UserInfo\Character\Human</Filter>
+    </ClInclude>
+    <ClInclude Include="Orc.h">
+      <Filter>소스 파일\UserInfo\Character\Orc</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreManager.h">
+      <Filter>소스 파일\Managers\CoreManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>소스 파일\Managers\UserManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginManager.h">
+      <Filter>소스 파일\Managers\LoginManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>소스 파일\Managers\UserManager\CharacterManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\UserInfo\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>소스 파일\UserInfo\Item\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="Wand.h">
+      <Filter>소스 파일\UserInfo\Item\Wand</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>소스 파일\UserInfo\Item\Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>소스 파일\Managers\UserManager\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordManager.h">
+      <Filter>소스 파일\Managers\UserManager\ItemManager\SwordManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WandManager.h">
+      <Filter>소스 파일\Managers\UserManager\ItemManager\WandManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BowManager.h">
+      <Filter>소스 파일\Managers\UserManager\ItemManager\BowManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

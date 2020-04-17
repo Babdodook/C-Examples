@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Product">
+      <UniqueIdentifier>{d3160220-c9b7-43f2-a98e-e447b6e2362a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Product\HomeApp">
+      <UniqueIdentifier>{c1bc293b-a88d-4c77-9e76-c3270cd14dc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Product\Clothes">
+      <UniqueIdentifier>{cdadd30e-ea5f-4de5-8092-0cad06a25627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Product\Food">
+      <UniqueIdentifier>{498f4ec4-7341-4282-8221-e96306c49f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ProductManager">
+      <UniqueIdentifier>{2cebdf1b-8efc-458f-8aee-1ec60686b6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ProductManager\FoodM">
+      <UniqueIdentifier>{64f9303f-b3c1-465a-af61-1be1c42f3096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ProductManager\HomeAppM">
+      <UniqueIdentifier>{9337c42a-2d0e-4552-b6d0-f8df7a68c182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ProductManager\ClothesM">
+      <UniqueIdentifier>{24255745-46a7-4220-a0d2-a7fbbf051a17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TotalManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="food.cpp">
+      <Filter>소스 파일\Product\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="clothes.cpp">
+      <Filter>소스 파일\Product\Clothes</Filter>
+    </ClCompile>
+    <ClCompile Include="homeapp.cpp">
+      <Filter>소스 파일\Product\HomeApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
+      <Filter>소스 파일\Product</Filter>
+    </ClCompile>
+    <ClCompile Include="ClothesManager.cpp">
+      <Filter>소스 파일\ProductManager\ClothesM</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodManager.cpp">
+      <Filter>소스 파일\ProductManager\FoodM</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeAppManager.cpp">
+      <Filter>소스 파일\ProductManager\HomeAppM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TotalManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="food.h">
+      <Filter>소스 파일\Product\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="clothes.h">
+      <Filter>소스 파일\Product\Clothes</Filter>
+    </ClInclude>
+    <ClInclude Include="homeapp.h">
+      <Filter>소스 파일\Product\HomeApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>소스 파일\Product</Filter>
+    </ClInclude>
+    <ClInclude Include="ClothesManager.h">
+      <Filter>소스 파일\ProductManager\ClothesM</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodManager.h">
+      <Filter>소스 파일\ProductManager\FoodM</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeAppManager.h">
+      <Filter>소스 파일\ProductManager\HomeAppM</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ProductManager.h">
+      <Filter>소스 파일\ProductManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

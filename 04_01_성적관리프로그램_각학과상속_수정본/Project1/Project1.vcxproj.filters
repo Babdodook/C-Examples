@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Design">
+      <UniqueIdentifier>{a8eacb0e-c71e-45ff-977f-93bad05eff5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Programming">
+      <UniqueIdentifier>{222fa73f-69a1-4948-9420-dbcfb0867b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Graphic">
+      <UniqueIdentifier>{06497943-d524-4dc3-86c9-5859ade92d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Student">
+      <UniqueIdentifier>{e549bc17-5f60-4970-9911-694efc1a2063}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TotalManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ListManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MajorManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Student.cpp">
+      <Filter>소스 파일\Student</Filter>
+    </ClCompile>
+    <ClCompile Include="Design.cpp">
+      <Filter>소스 파일\Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Programming.cpp">
+      <Filter>소스 파일\Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>소스 파일\Graphic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Basic.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ListManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MajorManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TotalManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>소스 파일\Student</Filter>
+    </ClInclude>
+    <ClInclude Include="Design.h">
+      <Filter>소스 파일\Design</Filter>
+    </ClInclude>
+    <ClInclude Include="Programming.h">
+      <Filter>소스 파일\Programming</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>소스 파일\Graphic</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
